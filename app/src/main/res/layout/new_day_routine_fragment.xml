@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+            android:fillViewport="true"
+            android:layout_width="match_parent">
+<LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+        <TextView
+            style="@style/time_style"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Day"/>
+        <EditText
+            android:id="@+id/edit_day"
+            android:textSize="14dp"
+            android:layout_margin="8dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+<TextView
+    style="@style/time_style"
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:text="8:30 - 9:25"
+    android:gravity="center"
+    />
+
+        <EditText
+            android:textSize="14dp"
+            android:layout_margin="8dp"
+            android:id="@+id/time_edit_slot_1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+        <TextView
+            style="@style/time_style"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="9:25 - 10:20"/>
+        <EditText
+            android:id="@+id/time_edit_slot_2"
+            android:textSize="14dp"
+            android:layout_margin="8dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+        <TextView
+            style="@style/time_style"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="10:30 - 11:25"/>
+        <EditText
+            android:id="@+id/time_edit_slot_3"
+            android:textSize="14dp"
+            android:layout_margin="8dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+        <TextView
+            style="@style/time_style"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="11:25 - 12:20"/>
+        <EditText
+            android:id="@+id/time_edit_slot_4"
+            android:textSize="14dp"
+            android:layout_margin="8dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+        <TextView
+            style="@style/time_style"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="14:00 - 14:55"/>
+        <EditText
+            android:id="@+id/time_edit_slot_5"
+            android:textSize="14dp"
+            android:layout_margin="8dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+        <TextView
+            style="@style/time_style"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="14:55 - 15:50"/>
+        <EditText
+            android:id="@+id/time_edit_slot_6"
+            android:textSize="14dp"
+            android:layout_margin="8dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+        <TextView
+            style="@style/time_style"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="15:50 - 16:45"/>
+        <EditText
+            android:id="@+id/time_edit_slot_7"
+            android:textSize="14dp"
+            android:layout_margin="8dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+        <TextView
+            style="@style/time_style"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="16:45 - 17:40"/>
+        <EditText
+            android:id="@+id/time_edit_slot_8"
+            android:textSize="14dp"
+            android:layout_margin="8dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            />
+    </LinearLayout>
+
+<Button
+
+    android:background="@drawable/rounder_corners"
+    android:elevation="5dp"
+    android:layout_margin="8dp"
+    android:layout_width="100dp"
+    android:layout_gravity="center"
+    android:id="@+id/confirm_button"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:text="Confirm"/>
+
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              >
+    <TextView
+        android:onClick="onClick"
+        style="@style/DaySelectFont"
+        android:id="@+id/monday_text_view"
+        android:text="@string/Monday_String"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        />
+    <TextView
+        android:onClick="onClick"
+        style="@style/DaySelectFont"
+        android:id="@+id/tuesday_text_view"
+        android:text="@string/Tuesday_String"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        />
+    <TextView
+        android:onClick="onClick"
+        style="@style/DaySelectFont"
+        android:id="@+id/wednesday_text_view"
+        android:text="@string/wednesday_String"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        />
+    <TextView
+        android:onClick="onClick"
+        style="@style/DaySelectFont"
+        android:id="@+id/thursday_text_view"
+        android:text="@string/Thrusday_String"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        />
+    <TextView
+        android:onClick="onClick"
+        style="@style/DaySelectFont"
+        android:id="@+id/friday_text_view"
+        android:text="@string/Friday_String"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        />
+
+
+
+</LinearLayout>

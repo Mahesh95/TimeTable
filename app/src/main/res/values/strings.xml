@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TimeTable</string>
+    <string name="Monday_String">Monday</string>
+    <string name="Tuesday_String">Tuesday</string>
+    <string name="wednesday_String">Wednesday</string>
+    <string name="Thrusday_String">Thrusday</string>
+    <string name="Friday_String">Friday</string>
+    <string name="add_new_routine">Add Routine</string>
+</resources>
